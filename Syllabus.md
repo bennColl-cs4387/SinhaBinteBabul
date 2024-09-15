@@ -20,7 +20,7 @@ Class will follow a familiar schedule (all times approximate)
 - 10am–1130am: Work time, send bugs to the screen for class debugging
   
 ## Schedule (see grid)
-Weekly Grid: Open Source Software in Practice (CS4387) [here](Weekly Grid_ Open Source Software in Practice (CS4387).xlsx)
+Weekly Grid: Open Source Software in Practice (CS4387) [here](https://github.com/bennColl-cs4387/Demo-Repo-Sinha/blob/f84b2e7c68dcd98897f5eac9c34a35d423d9501d/Weekly%20Grid_%20Open%20Source%20Software%20in%20Practice%20(CS4387).xlsx)
 
 ## Grading Policies
 The course will be graded heavily on participation. I expect you to be committing meaningful code every week. 
