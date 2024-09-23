@@ -1,6 +1,8 @@
 ## Command Line History
 
-````bash 
+
+````bash
+## Cloning the Repo
 sinha@Sinha MINGW64 /c/repos/GIt murder mystery
 $  ** git clone https://github.com/nivbend/gitstery.git** 
 Cloning into 'gitstery'...
