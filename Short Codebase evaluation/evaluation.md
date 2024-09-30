@@ -2,7 +2,7 @@
 
 For my first open-source contribution, I began by searching for beginner-friendly repositories on GitHub, focusing on Python-based projects since I am most comfortable writing in Python. I also sought out libraries that I use frequently or are related to my areas of interest, as this would help me better understand the issues before trying to solve them.
 
-I found the [awesome-for-beginners]{https://github.com/MunGell/awesome-for-beginners} repository, which lists beginner-friendly codebases. After reviewing several options, I decided on two python libraries: [Matplotlib]{https://github.com/matplotlib/matplotlib} and [scikit-learn]{https://github.com/scikit-learn/scikit-learn}. Both are Python libraries that I regularly work with—Matplotlib for data visualization and scikit-learn for machine learning.
+I found the [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners) repository, which lists beginner-friendly codebases. After reviewing several options, I decided on two python libraries: [Matplotlib](https://github.com/matplotlib/matplotlib) and [scikit-learn](https://github.com/scikit-learn/scikit-learn). Both are Python libraries that I regularly work with—Matplotlib for data visualization and scikit-learn for machine learning.
 
 Languages:
 Matplotlib is primarily written in Python, with some components in C and JavaScript. Scikit-learn is also written mainly in Python, but it leverages a mix of C.
