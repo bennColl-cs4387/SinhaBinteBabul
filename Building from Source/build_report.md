@@ -1,6 +1,6 @@
 # LOG OF BUILDING SCIKIT-LEARN FROM SOURCE
 
-I have been able to build the project from source by utilizing the [Installing the developement version of scikit-learn](https://scikit-learn.org/stable/developers/advanced_installation.html#compiler-windows). Initially, I encountered a few errors and had to restart the installation process several times. After troubleshooting online and trying different CLI guidelines, I realized partway through the process that the article was intended for use with 'cmd' or 'conda' only, while I had been using Git Bash. As a result, I had to modify some commands accordingly.
+I have been able to build the project from source by utilizing the [Installing the developement version of scikit-learn](https://scikit-learn.org/stable/developers/advanced_installation.html#compiler-windows). Initially, I encountered a few errors and had to restart the installation process several times. After troubleshooting online and trying different CLI guidelines, I realized partway through the process that the article was intended for use with 'cmd' or 'conda' only, while I had been using Git Bash. As a result, I had to modify some commands accordingly. This log doesn't contain the tests to be run on the modules of my choice. I will log it in a different markdown.
 
 ### Step 1: First, I cloned the scikit-learn repo to my local repo.
 ```bash
