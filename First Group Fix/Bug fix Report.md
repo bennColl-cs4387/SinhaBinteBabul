@@ -1,5 +1,5 @@
-Group Members: Sizar, Abrar, Sinha
-GH Repo: PyCaret
+#### Group Members: Sizar, Abrar, Sinha
+#### GH Repo: PyCaret
 
 ### **Explanation of the Bug, Fix, and Solution in PyCaret Issue \#3011**
 
