@@ -32,12 +32,54 @@ exp.setup(y, fh=12, fold=cv)
 
 The issue manifests when the experiment is set up using this code. Instead of showing the number of folds used in cross-validation, the setup summary incorrectly displays the ExpandingWindowSplitter object.
 
+Expected Example Output:
+For a dataset of length [171,0], the fold number output should be 31. Instead it displays, "ExpandingWindowSplitter(fh=array([ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]), initial_window=None, step_length=4)"
+
 ### **2. Root Cause of the Issue**
 
-The root cause of the issue lies in how PyCaret's setup function was handling the fold parameter:
+The root cause of the issue lies in how PyCaret's _setup_fold_generator function was handling the fold parameter:
 
-* The code was directly setting the Fold Number in the summary by assigning the self.fold attribute to fold_param. 
-* This approach worked fine for simpler fold strategies, such as when using an integer-based fold count. However, it did not account for complex splitter objects, such as ExpandingWindowSplitter, where self.fold is an object that manages the splitting process rather than a simple number.
+Here is the original function from the source code:
+
+```bash
+    def _set_fold_generator(self) -> "TSForecastingExperiment":
+        """Sets up the cross validation fold generator that operates on the training dataset.
+
+        Returns
+        -------
+        TSForecastingExperiment
+            The experiment object to allow chaining of methods
+
+        Raises
+        ------
+        TypeError
+            When the fold_strategy passed by the user is not one of the allowed types
+        """
+        possible_time_series_fold_strategies = ["expanding", "sliding", "rolling"]
+        #TODO: Change is_sklearn_cv_generator to check for sktime instead
+        if not (
+            self.fold_strategy in possible_time_series_fold_strategies
+            or is_sklearn_cv_generator(self.fold_strategy)
+        ):
+            raise TypeError(
+                "fold_strategy parameter must be either a sktime compatible CV generator "
+                f"object or one of '{', '.join(possible_time_series_fold_strategies)}'."
+            )
+
+        if self.fold_strategy in possible_time_series_fold_strategies:
+            # Number of folds
+            self.fold_param = self.fold
+            self.fold_generator = self.get_fold_generator(fold=self.fold_param)
+        else:
+            self.fold_generator = self.fold_strategy
+            # Number of folds
+            self.fold_param = self.fold_strategy.get_n_splits(y=self.y_train)
+
+        return self
+```
+
+* The code is directly setting the Fold Number in the summary by assigning the self.fold attribute to fold_param. 
+* This approach works fine for simpler fold strategies, such as when using an integer-based fold count. However, it did not account for complex splitter objects, such as ExpandingWindowSplitter, where self.fold is an object that manages the splitting process rather than a simple number.
 
 In this case, because ExpandingWindowSplitter is an object that dynamically generates folds based on the dataset's characteristics (length, initial window, step length, and forecasting horizon), the setup summary displayed the entire object reference instead of calculating and showing the actual number of folds.
 
