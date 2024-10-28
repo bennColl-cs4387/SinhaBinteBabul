@@ -3,5 +3,7 @@ This repo has the [Syllabus](https://github.com/bennColl-cs4387/Demo-Repo-Sinha/
 1) [GitHub Murder Mystery](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/4ceb04df645c20f47823e13c8b689f1e3ddc1717/git%20murder%20mystery%20)
 2) [Short Evaluation on First-Fix](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/f2bca109a730918e6428aecefa0eec4360083a87/Short%20Codebase%20evaluation)
 3) [Building from Source](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/b5b390265597a13482472d4c4ea1fe912f208c47/Building%20from%20Source)
+4) Essay on First Fix
+5) [First Group Fix](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/1bebca28f96054638d4f577ac1bb9d79418d5618/First%20Group%20Fix)
 
 
