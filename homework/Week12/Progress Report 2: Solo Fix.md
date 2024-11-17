@@ -53,5 +53,5 @@ Here is the new scikit-learn build process that worked for me:
 ```
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### Progress Expectations:
+### Progress Expectations:
 Now I am delving deep in the code of BayesianRidge Model and identifying the source of the issue. I aim to have a solution by the first half of this week.
