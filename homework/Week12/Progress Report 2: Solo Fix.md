@@ -1,5 +1,5 @@
 ## Solo Fix Progress Report 2
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Codebase: [Scikit-Learn](https://github.com/scikit-learn/scikit-learn)
 #### Issue: [#24313](https://github.com/scikit-learn/scikit-learn/issues/24313)
 #### Issue Topic: Standard Deviation of Bayesian Ridge Regression Model’s Predictions Affected by Uniform Sample Weights
