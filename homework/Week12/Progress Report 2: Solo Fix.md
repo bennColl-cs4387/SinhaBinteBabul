@@ -51,7 +51,7 @@ Here is the new scikit-learn build process that worked for me:
   34 pip install scikit_learn-1.7.dev0-cp311-cp311-win_amd64.whl                                                       
   35 python -c "import sklearn; print(sklearn.__version__)"                                                       
 ```
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Progress Expectations:
 Now I am delving deep in the code of BayesianRidge Model and identifying the source of the issue. I aim to have a solution by the first half of this week.
