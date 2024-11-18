@@ -16,5 +16,5 @@ Welcome to the **Open Source Programming in Practice** repository! This reposito
 - [Group Fix](https://github.com/bennColl-cs4387/SinhaBinteBabul/blob/cbbe64c91ea13e02d3ce717147b1f1ad2184b812/assignments/group_fix/pycaret_issue_3011/pycaret_3011.md)
   - [Pycaret #3011](https://github.com/bennColl-cs4387/sizar/blob/683aaff7e677dbc9f95600f803d964a25c0ea889/assignments/group-fix/pycaret-3011/pycaret_3011.md)
 - [Solo Fixes](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/cbbe64c91ea13e02d3ce717147b1f1ad2184b812/assignments/solo_fixes)
-  - [Scikit Learn #24313]([https://github.com/bennCollcs4387/SinhaBinteBabul/tree/cbbe64c91ea13e02d3ce717147b1f1ad2184b812/assignments/solo_fixes/Fix%201%3A%20Bayesian%20Ridge%20Model](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/fead6c792c0a7912ef60f6c6b9bd2024d6e3d1d9/assignments/solo_fixes/Fix%201%3A%20Bayesian%20Ridge%20Model))
+  - [Scikit Learn #24313](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/fead6c792c0a7912ef60f6c6b9bd2024d6e3d1d9/assignments/solo_fixes/Fix%201%3A%20Bayesian%20Ridge%20Model)
 
