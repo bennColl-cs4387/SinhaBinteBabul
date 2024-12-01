@@ -19,4 +19,5 @@ Welcome to the **Open Source Programming in Practice** repository! This reposito
   - [Pycaret #3011](https://github.com/bennColl-cs4387/sizar/blob/683aaff7e677dbc9f95600f803d964a25c0ea889/assignments/group-fix/pycaret-3011/pycaret_3011.md)
 - [Solo Fixes](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/cbbe64c91ea13e02d3ce717147b1f1ad2184b812/assignments/solo_fixes)
   - [Scikit Learn #24313](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/fead6c792c0a7912ef60f6c6b9bd2024d6e3d1d9/assignments/solo_fixes/Fix%201%3A%20Bayesian%20Ridge%20Model)
+  - [Second Issue: Finding](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/078b4851a9eaebb0f781026b03df952e340010c9/assignments/solo_fixes/Fix%202)
 
