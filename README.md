@@ -24,6 +24,7 @@ Here is the [Essay](https://github.com/bennColl-cs4387/SinhaBinteBabul/blob/d402
 
 
 ## Learnings:
+
 #### Reflection on the Course
 This course has been a good learning experience. One of the key things I learned was how to use GitHub and navigate through its features. I now feel more comfortable with version control tasks like cloning repositories, creating branches, and making pull requests. I also learned how to work with Git locally, including committing changes, pushing them to GitHub, and pulling updates. 
 Setting up and managing virtual environments was another important part of the course. I learned why they’re useful, especially for keeping projects organized and avoiding dependency conflicts. A big part of this course involved understanding source codes and exploring large codebases like PyCaret and Scikit-learn. 
