@@ -10,7 +10,8 @@ Here are my [GitHub](https://github.com/sinhabintebabul) and [LinkedIn](https://
 - [Scikit-Learn Bayesian Ridge Regression](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/d402414d4f499fcd7bcfd5047bc4badbeebcbc1a/assignments/solo_fixes/Fix%201%3A%20Bayesian%20Ridge%20Model):
   Contributed to resolving a bug where the predicted y standard deviation was unintentionally affected by input weights; submitted a [Pull Request](https://github.com/scikit-learn/scikit-learn/pull/30433).
 - [Second Solve](https://github.com/bennColl-cs4387/SinhaBinteBabul/tree/d402414d4f499fcd7bcfd5047bc4badbeebcbc1a/assignments/solo_fixes/Fix%202):
-  Seeking another quick Scikit-Learn issue to resolve before the end of the term.
+  Unfortunately, due to time constraints, I couldn’t begin work on the second solo fix. However, I did come across some interesting issues that I would like to attempt solving 
+  in the future.
 
 
 ## Group Fix:
